@@ -82,7 +82,7 @@
 @include media( '>medium' ) {
 
     .field-grouped {
-        display: flex;
+        display: block;
 
         > .control {
             flex-shrink: 0;

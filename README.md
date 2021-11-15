@@ -1,6 +1,6 @@
 # Yalla Bitcoin!
 
-Join Israel's premiere Bitcoin and cryptocurrency group chat.
+Join Israel's premier Bitcoin and cryptocurrency group chat.
 
 - [Getting started](#getting-started)
 
