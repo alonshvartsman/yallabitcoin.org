@@ -1,0 +1,64 @@
+// Chart Section
+// =====
+
+.chart-section {
+	padding: 80px 0;
+	background: color(bg, 2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.chart-header {
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.chart-title {
+	color: color(typography, 1);
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 16px;
+	background: color(gradient, 1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	line-height: 1.2;
+
+	@include media( '>medium' ) {
+		font-size: 3rem;
+	}
+}
+
+.chart-description {
+	color: color(typography, 2);
+	font-size: 1.1rem;
+	line-height: 1.6;
+	margin: 0;
+	max-width: 700px;
+	margin: 0 auto;
+
+	@include media( '>medium' ) {
+		font-size: 1.2rem;
+	}
+}
+
+#nh-chart-loader {
+	width: 80vw;
+	max-width: 1200px;
+	min-height: 400px;
+	background: #fafafa;
+	border: 1px solid color(bg, 4);
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: 0 4px 20px rgba(color(typography, 1), 0.05);
+	transition: all 0.3s ease;
+
+	&:hover {
+		box-shadow: 0 8px 32px rgba(color(typography, 1), 0.1);
+		transform: translateY(-2px);
+	}
+}
