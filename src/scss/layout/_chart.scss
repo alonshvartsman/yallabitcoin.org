@@ -9,12 +9,20 @@
 	justify-content: center;
 	align-items: center;
 	gap: 40px;
+
+	@include media( '<=medium' ) {
+		padding: 0;
+	}
 }
 
 .chart-header {
 	text-align: center;
 	max-width: 800px;
 	margin: 0 auto;
+
+	@include media( '<=medium' ) {
+		padding: 60px 20px 0;
+	}
 }
 
 .chart-title {
@@ -60,5 +68,21 @@
 	&:hover {
 		box-shadow: 0 8px 32px rgba(color(typography, 1), 0.1);
 		transform: translateY(-2px);
+	}
+
+	// Mobile-specific styles for embedded chart elements
+	@include media( '<=medium' ) {
+		width: 100vw;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+
+		.card-content {
+			padding: 0 !important;
+		}
+
+		.hc-title-link {
+			display: none !important;
+		}
 	}
 }
