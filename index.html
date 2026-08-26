@@ -5,34 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="src/images/btc.png" />
-    <title>Yalla Bitcoin!</title>
+    <title>Yalla Bitcoin | Israel's Bitcoin Community</title>
     <meta
       name="description"
-      content="Welcome to Yalla Bitcoin, a safe haven for Bitcoiners with a connection to the Holy Land."
+      content="Join more than 600 people learning, sharing, and meeting through Israel's Bitcoin community."
     />
-    <meta property="og:title" content="Yalla Bitcoin!" />
+    <meta property="og:title" content="Yalla Bitcoin | Israel's Bitcoin Community" />
     <meta
       property="og:description"
-      content="Welcome to Yalla Bitcoin, a safe haven for Bitcoiners with a connection to the Holy Land."
+      content="Join more than 600 people learning, sharing, and meeting through Israel's Bitcoin community."
     />
     <meta property="og:url" content="https://www.yallabitcoin.org" />
     <meta
       property="og:image"
-      content="yallabitcoinOG.png"
+      content="https://www.yallabitcoin.org/yallabitcoinOG.png"
     />
     <meta property="og:canonical" content="https://www.yallabitcoin.org" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Yalla Bitcoin" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Yalla Bitcoin!" />
+    <meta name="twitter:title" content="Yalla Bitcoin | Israel's Bitcoin Community" />
     <meta
       name="twitter:description"
-      content="Welcome to Yalla Bitcoin, a safe haven for Bitcoiners with a connection to the Holy Land."
+      content="Join more than 600 people learning, sharing, and meeting through Israel's Bitcoin community."
     />
     <meta
       name="twitter:image"
-      content="yallabitcoinOG.png"
+      content="https://www.yallabitcoin.org/yallabitcoinOG.png"
     />
     <meta name="twitter:site" content="@yallabitcoin" />
     <link href="https://www.yallabitcoin.org" rel="canonical" />
@@ -42,15 +42,17 @@
         "@type": "Organization",
         "name": "Yalla Bitcoin",
         "url": "https://www.yallabitcoin.org",
-        "logo": "https://images.cointelegraph.com/images/1434_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy81NTliZTk5NzhhNTVkNzVjN2U5MTg5NDgzMGY5YzhhNy5wbmc=.jpg",
+        "logo": "https://www.yallabitcoin.org/src/images/btc.png",
         "sameAs": ["https://twitter.com/yallabitcoin"]
       }
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="dist/css/style.css" />
+    <link rel="stylesheet" href="dist/css/style.css?v=20260826-10" />
     <script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   </head>
@@ -71,13 +73,18 @@
                 </a>
               </h1>
             </div>
-            <div class="header-badge">
-              <img
-                src="yallabitcoinOG.png"
-                alt="Yalla Bitcoin"
-                class="header-badge-image"
-              />
-            </div>
+            <nav class="header-nav" aria-label="Main navigation">
+              <a href="#community">Community</a>
+              <a href="#sponsors">Sponsors</a>
+              <a href="#chart">Monthly chart</a>
+              <a href="#mods">Moderators</a>
+              <a
+                class="header-join"
+                href="https://chat.whatsapp.com/GeSrfzP6hP41t7NSlU89WS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Join the group <span aria-hidden="true">↗</span></a>
+            </nav>
           </div>
         </div>
       </header>
@@ -87,66 +94,60 @@
           <div class="hero-background">
             <div class="hero-gradient"></div>
             <div class="hero-particles"></div>
+            <div class="hero-mesh"></div>
+            <img
+              class="hero-city-image"
+              src="src/images/tel-aviv-hero-night.webp"
+              alt=""
+              decoding="async"
+            />
+            <div class="hero-visual">
+              <div class="hero-video-container">
+                <video
+                  class="hero-video"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  aria-hidden="true"
+                >
+                  <source src="yalla-video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="hero-video-overlay"></div>
+              </div>
+            </div>
+            <div class="hero-scene-overlay" aria-hidden="true"></div>
           </div>
           <div class="container">
             <div class="hero-inner">
               <div class="hero-content">
                 <div class="hero-text">
+                  <div class="hero-eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    Israel's Bitcoin community · 600+ members
+                  </div>
                   <h1 class="hero-title">
-                    <span class="title-line">Yalla</span>
-                    <span class="title-line bitcoin-text">₿itcoin</span>
+                    <span class="title-line">Israel's Bitcoin</span>
+                    <span class="title-line bitcoin-text">community.</span>
                   </h1>
                   <p class="hero-description">
-                    Join Israel's premier Bitcoin community. Connect with fellow Bitcoiners, 
-                    share insights, and be part of the financial revolution happening in the Holy Land.
+                    Learn together, share what you know, and meet other Bitcoiners in Israel. No token pitches. Just Bitcoin and good people.
                   </p>
-                  <div class="hero-stats">
-                    <div class="stat">
-                      <span class="stat-number">550+</span>
-                      <span class="stat-label">Members</span>
-                    </div>
-                    <div class="stat">
-                      <span class="stat-number">24/7</span>
-                      <span class="stat-label">Active Chat</span>
-                    </div>
-                    <div class="stat">
-                      <span class="stat-number">Monthly</span>
-                      <span class="stat-label">Meetups</span>
-                    </div>
-                  </div>
                   <div class="hero-actions">
                     <a
                       target="_blank"
                       class="button button-primary button-large"
                       href="https://chat.whatsapp.com/GeSrfzP6hP41t7NSlU89WS"
+                      rel="noopener noreferrer"
                     >
                       <span class="button-icon">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
                         </svg>
                       </span>
-                      Join WhatsApp Group
+                      Join us on WhatsApp
                     </a>
-                  </div>
-                </div>
-                <div class="hero-visual">
-                  <div class="hero-video-container">
-                    <video 
-                      class="hero-video"
-                      autoplay
-                      muted
-                      loop
-                      playsinline
-                    >
-                      <source src="yalla-video.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-                    <div class="hero-video-overlay"></div>
-                    <div class="floating-elements">
-                      <div class="floating-element element-1">₿</div>
-                      <div class="floating-element element-2">₿</div>
-                      <div class="floating-element element-3">₿</div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -154,16 +155,58 @@
           </div>
         </section>
 
-        <section class="features section" id="features">
+        <div class="signal-strip" aria-label="Community principles">
+          <div class="signal-track">
+            <span>Bitcoin only</span><i>₿</i>
+            <span>Stay humble</span><i>₿</i>
+            <span>Stack sats</span><i>₿</i>
+            <span>Learn together</span><i>₿</i>
+            <span>Meet in real life</span><i>₿</i>
+            <span>Verify, don't trust</span><i>₿</i>
+          </div>
+        </div>
+
+        <section class="sponsors" id="sponsors" aria-labelledby="sponsors-title">
+          <div class="container">
+            <div class="sponsors-heading">
+              <div>
+                <div class="section-kicker">Our network</div>
+                <h2 id="sponsors-title">Our sponsors &amp; community partners</h2>
+              </div>
+              <p>We are lucky to have great companies and local organizations in our corner.</p>
+            </div>
+            <div class="sponsor-grid">
+              <a class="sponsor sponsor-newhedge" href="https://newhedge.io/" target="_blank" rel="noopener noreferrer" aria-label="Newhedge">
+                <img src="https://newhedge.io/assets/newhedge_logo_fit-1e8c778fb0bdde620896b53a0c1e5372a885d741a834ffeee9fab6c593d3274c.svg" alt="Newhedge" />
+              </a>
+              <a class="sponsor sponsor-bybit" href="https://www.bybit.com/" target="_blank" rel="noopener noreferrer" aria-label="Bybit">
+                <img src="src/images/bybit-logo.svg" alt="Bybit" />
+              </a>
+              <a class="sponsor sponsor-nominis" href="https://www.nominis.io/" target="_blank" rel="noopener noreferrer" aria-label="Nominis">
+                <img src="https://cdn.prod.website-files.com/68dce069d674e907cea82574/68dce069d674e907cea825e8_Logo%20Light.svg" alt="Nominis" />
+              </a>
+              <a class="sponsor sponsor-embassy" href="https://www.bitembassy.org/" target="_blank" rel="noopener noreferrer" aria-label="Bitcoin Embassy of Tel Aviv">
+                <img src="src/images/bitcoin-embassy-logo.png" alt="Bitcoin Embassy of Tel Aviv" />
+              </a>
+              <a class="sponsor sponsor-zengo" href="https://zengo.com/" target="_blank" rel="noopener noreferrer" aria-label="Zengo">
+                <img src="https://zengo.com/wp-content/uploads/ZenGo-Logo-Simple-5.svg" alt="Zengo" />
+              </a>
+              <a class="sponsor sponsor-dlt" href="https://dltlaw.io/" target="_blank" rel="noopener noreferrer" aria-label="DLT Law">
+                <img src="https://vangus-cdn.com/dltlaw.io/wp-content/uploads/2025/09/logo-DTL--300x98.png" alt="DLT Law" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="features section" id="community">
           <div class="container">
             <div class="features-inner section-inner">
               <div class="features-header text-center">
                 <div class="container-sm">
-                  <h2 class="section-title mt-0">Join the community!</h2>
+                  <div class="section-kicker">Why Yalla</div>
+                  <h2 class="section-title mt-0">Bitcoin is better with people.</h2>
                   <p class="section-paragraph">
-                    We believe in Bitcoin, and we believe in the Israel's
-                    immense potential to become a world leader in the crypto
-                    space.
+                    Learn, compare notes, and finally meet the people behind the profile pictures.
                   </p>
                 </div>
               </div>
@@ -190,11 +233,10 @@
                     </div>
                     <div class="feature-content">
                       <h4 class="feature-title">
-                        <span class="bitcoin-symbol">₿</span> Listen in and share your thoughts
+                        <span class="bitcoin-symbol">₿</span> Bitcoin only
                       </h4>
                       <p class="feature-text">
-                        Feel free to drop your Satoshi wisdom and get involved in
-                        the conversation. Fresh banter is always guaranteed
+                        No altcoin pitches. No endless shilling.
                       </p>
                     </div>
                   </div>
@@ -221,11 +263,10 @@
                     </div>
                     <div class="feature-content">
                       <h4 class="feature-title">
-                        <span class="bitcoin-symbol">₿</span> Talk with amazing people
+                        <span class="bitcoin-symbol">₿</span> Ask anything
                       </h4>
                       <p class="feature-text">
-                        A safe haven for Bitcoiners with a connection to the Holy
-                        Land.
+                        Wallets, privacy, self-custody, or where to start.
                       </p>
                     </div>
                   </div>
@@ -253,11 +294,10 @@
                     </div>
                     <div class="feature-content">
                       <h4 class="feature-title">
-                        <span class="bitcoin-symbol">₿</span> Just getting started
+                        <span class="bitcoin-symbol">₿</span> Meet your people
                       </h4>
                       <p class="feature-text">
-                        You're bound to have a mutual friend that is currently in
-                        the group.
+                        Founders, builders, old hands, and brand new Bitcoiners.
                       </p>
                     </div>
                   </div>
@@ -284,75 +324,10 @@
                     </div>
                     <div class="feature-content">
                       <h4 class="feature-title">
-                        <span class="bitcoin-symbol">₿</span> Join the meetups
+                        <span class="bitcoin-symbol">₿</span> Meet in Tel Aviv
                       </h4>
                       <p class="feature-text">
-                        We gather monthly in Tel Aviv and ask Satoshi to bless our
-                        bags with reverse gravity. Amen.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="feature is-revealing">
-                  <div class="feature-inner">
-                    <div class="feature-icon">
-                      <svg
-                        width="40"
-                        height="40"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g fill="none" fill-rule="nonzero">
-                          <circle fill="#F7931A" cx="20" cy="20" r="10" />
-                          <path
-                            d="M20 12c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zm0 14c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6z"
-                            fill="#FFB84D"
-                          />
-                          <path
-                            d="M20 14c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6zm0 10c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"
-                            fill="#E6820A"
-                          />
-                        </g>
-                      </svg>
-                    </div>
-                    <div class="feature-content">
-                      <h4 class="feature-title">
-                        <span class="bitcoin-symbol">₿</span> Market Intelligence
-                      </h4>
-                      <p class="feature-text">
-                        Get real-time Bitcoin market analysis, on-chain metrics, and 
-                        expert insights from seasoned traders and analysts.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="feature is-revealing">
-                  <div class="feature-inner">
-                    <div class="feature-icon">
-                      <svg
-                        width="40"
-                        height="40"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g fill="none" fill-rule="nonzero">
-                          <path
-                            d="M20 10c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"
-                            fill="#0EA5E9"
-                          />
-                          <path
-                            d="M20 14c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6zm0 10c-2.209 0-4-1.791-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4z"
-                            fill="#38BDF8"
-                          />
-                          <circle fill="#7DD3FC" cx="20" cy="20" r="4" />
-                        </g>
-                      </svg>
-                    </div>
-                    <div class="feature-content">
-                      <h4 class="feature-title">
-                        <span class="bitcoin-symbol">₿</span> Technical Education
-                      </h4>
-                      <p class="feature-text">
-                        Learn about Bitcoin's technical fundamentals, Lightning Network, 
-                        privacy tools, and self-custody best practices.
+                        Regular meetups, good conversation, actual humans.
                       </p>
                     </div>
                   </div>
@@ -362,19 +337,66 @@
           </div>
         </section>
 
-        <section class="chart-section">
-          <div class="chart-header">
-            <h2 class="chart-title">Chart of the Month</h2>
-            <p class="chart-description">
-              The Bitcoin MVRV-Z-Score measures the ratio of Bitcoin's market value to its realized value, 
-              helping identify when Bitcoin is overvalued or undervalued relative to its historical average. 
-              Values above 7 typically indicate market tops, while values below 0 suggest potential buying opportunities.
-            </p>
+        <section class="city-statement" aria-labelledby="city-statement-title">
+          <img
+            class="city-statement-image"
+            src="src/images/tel-aviv-community.webp"
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+          <div class="city-statement-overlay" aria-hidden="true"></div>
+          <div class="container city-statement-inner">
+            <div class="city-statement-copy">
+              <div class="city-statement-kicker"><span></span>Built in Tel Aviv</div>
+              <h2 id="city-statement-title">Israel's largest Bitcoin community.</h2>
+              <p>More than 600 Bitcoiners learning, building, debating, laughing, and meeting in real life.</p>
+              <a
+                class="city-statement-link"
+                href="https://chat.whatsapp.com/GeSrfzP6hP41t7NSlU89WS"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Join the community <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="city-statement-meta" aria-label="Community at a glance">
+              <div><strong>600+</strong><span>Members</span></div>
+              <div><strong>Tel Aviv</strong><span>Home base</span></div>
+              <div><strong>Bitcoin only</strong><span>Always signal first</span></div>
+            </div>
           </div>
-          <div id='nh-chart-loader' data-chart='mvrv-z-score' data-session-key='YxVozOScWvlfulZcxTpnACLn'></div><script src='https://newhedge.io/chart-asset/embed'></script>
         </section>
 
-        <section class="testimonials section">
+        <section class="chart-section" id="chart">
+          <div class="chart-header">
+            <div class="section-kicker">What we are watching</div>
+            <h2 class="chart-title">One signal worth a look.</h2>
+            <p class="chart-description">
+              MVRV compares Bitcoin's market value with its realized value. It is a useful way to see where we might be in the cycle, without pretending any chart can predict the future.
+            </p>
+          </div>
+          <div class="chart-shell">
+            <div class="chart-window-bar">
+              <div class="chart-source">
+                <i></i>
+                <span><strong>Chart of the month</strong><small>Interactive market data</small></span>
+              </div>
+              <div class="chart-window-actions">
+                <span class="chart-status"><i></i>Interactive</span>
+                <a class="chart-credit" href="https://newhedge.io/" target="_blank" rel="noopener noreferrer">Powered by Newhedge <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+            <div class="chart-stage">
+              <div id="nh-chart-loader" data-chart="mvrv-z-score" data-session-key="YxVozOScWvlfulZcxTpnACLn"></div>
+            </div>
+            <div class="chart-native-footer">
+              <span>Choose a range and move across the chart to explore.</span>
+              <span>Long-term context, not a price prediction.</span>
+            </div>
+          </div>
+          <script src="https://newhedge.io/chart-asset/embed"></script>
+        </section>
+
+        <section class="testimonials section" id="mods">
           <div class="testimonials-shape testimonials-shape-1">
             <svg
               width="280"
@@ -455,7 +477,8 @@
           </div>
           <div class="container">
             <div class="testimonials-inner section-inner">
-              <h2 class="section-title mt-0 text-center">Meet the mods</h2>
+              <div class="section-kicker text-center">Community leadership</div>
+              <h2 class="section-title mt-0 text-center">Meet the moderators</h2>
               <div class="testimonials-wrap">
                 <div class="testimonial text-xs is-revealing">
                   <div class="testimonial-inner">
@@ -463,24 +486,49 @@
                       <div class="testimonial-header">
                         <img
                           class="mb-16"
-                          src="src/images/alon-shvartsman.jpg"
-                          alt="Testimonial"
+                          src="src/images/dudu-azaraf.jpg"
+                          alt="Dudu Azaraf"
                         />
                       </div>
                       <div class="testimonial-body">
+                        <h3>Dudu Azaraf</h3>
                         <p class="mb-0">
-                          Alon Shvartsman is the founder of
-                          <a href="https://newhedge.io/" target="_blank"
-                            >Newhedge</a
-                          >, a Bitcoin-focused intelligence platform uncovering network insights.
+                          Founder of <a href="https://dudubitcoin.com/" target="_blank" rel="noopener noreferrer">Dudu Bitcoin</a>, making complicated ideas easier to understand.
                         </p>
                       </div>
                     </div>
                     <div class="testimonial-footer">
                       <div class="testimonial-link">
                         <a
-                          href="https://x.com/alonshvartsman"
-                          target="blank"
+                          href="https://dudubitcoin.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >dudubitcoin.com</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial text-xs is-revealing">
+                  <div class="testimonial-inner">
+                    <div class="testimonial-main">
+                      <div class="testimonial-header">
+                        <img
+                          class="mb-16"
+                          src="src/images/alon-shvartsman.jpg"
+                          alt="Alon Shvartsman"
+                        />
+                      </div>
+                      <div class="testimonial-body">
+                        <h3>Alon Shvartsman</h3>
+                        <p class="mb-0">
+                          Founder of <a href="https://newhedge.io/" target="_blank">Newhedge</a> and a longtime Bitcoin data nerd.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial-footer">
+                      <div class="testimonial-link">
+                        <a href="https://x.com/alonshvartsman" target="_blank" rel="noopener noreferrer"
                           >@alonshvartsman</a
                         >
                       </div>
@@ -493,42 +541,14 @@
                       <div class="testimonial-header">
                         <img
                           class="mb-16"
-                          src="src/images/dudu-azaraf.jpg"
-                          alt="Dudu Azaraf"
-                        />
-                      </div>
-                      <div class="testimonial-body">
-                        <p class="mb-0">
-                          Dudu Azaraf is a Bitcoin and blockchain advocate who's
-                          focus is to help bridge the gap between complexities
-                          of Bitcoin and its expanding mainstream audience.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="testimonial-footer">
-                      <div class="testimonial-link">
-                        <a href="https://x.com/dudu_bitcoin" target="_blank"
-                          >@DAzaraf</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="testimonial text-xs is-revealing">
-                  <div class="testimonial-inner">
-                    <div class="testimonial-main">
-                      <div class="testimonial-header">
-                        <img
-                          class="mb-16"
                           src="src/images/david-benchimol.jpg"
-                          alt="Testimonial"
+                          alt="David Benchimol"
                         />
                       </div>
                       <div class="testimonial-body">
+                        <h3>David Benchimol</h3>
                         <p class="mb-0">
-                          David is an experienced backend and smart contract
-                          developer. David completed a B.Sc in Mathematics and
-                          Computer Science.
+                          Backend developer with a background in mathematics and computer science.
                         </p>
                       </div>
                     </div>
@@ -537,6 +557,7 @@
                         <a
                           href="https://www.linkedin.com/in/david-benchimol/"
                           target="_blank"
+                          rel="noopener noreferrer"
                           >David Benchimol</a
                         >
                       </div>
@@ -553,11 +574,10 @@
             <div class="newsletter-inner section-inner">
               <div class="newsletter-header text-center">
                 <h2 class="section-title mt-0">
-                  We are excited for you to join 😎
+                  Come join the conversation.
                 </h2>
                 <p class="section-paragraph">
-                  Yalla Bitcoin, the leisurely Bitcoin chat with a special
-                  Israeli flavor.
+                  More than 600 Bitcoiners are already here. You should be too.
                 </p>
               </div>
               <div class="footer-form newsletter-form field field-grouped">
@@ -566,7 +586,8 @@
                     class="button button-primary button-block button-shadow"
                     href="https://chat.whatsapp.com/GeSrfzP6hP41t7NSlU89WS"
                     target="_blank"
-                    >Get Access</a
+                    rel="noopener noreferrer"
+                    >Join 600+ Bitcoiners <span aria-hidden="true">↗</span></a
                   >
                 </div>
               </div>
@@ -619,7 +640,7 @@
               </li>
             </ul>
             <div class="footer-copyright">
-              &copy; 2025 YallaBitcoin, all rights reserved
+              &copy; 2026 Yalla Bitcoin. Made with conviction.
             </div>
           </div>
         </div>
